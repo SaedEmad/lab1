@@ -1,0 +1,64 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+nav{
+    background-color: black;
+}
+nav h1{
+
+    color: white;
+    padding: 1%;
+    text-align: center;
+}
+
+
+.form {
+   position: fixed;
+   top: 20%;
+   left: 40%;
+   display: block;
+   width: 20%;
+  }
+
+.container{
+    border: 2px solid black;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    text-align: first;
+    color: #000;
+    position: relative;
+    padding: 10%;
+}
+.container button{
+    background-color: #000;
+    color: white;
+    padding: 5%;
+    transition: .5s;
+}
+input{
+    margin-bottom: 10%;
+    padding: 5%;
+    padding-right: 30%;
+    transition: .5s;
+}
+input:hover{
+    background-color: rgb(155, 155, 255);
+    transition: .5s;
+}
+
+
+.container button:hover{
+    background-color: aqua;
+    color: black;
+    transition: .5s;
+}
+.container button:active{
+    background-color: red;
+
+    transition: .5s;
+}
+
